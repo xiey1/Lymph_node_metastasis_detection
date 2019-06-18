@@ -60,3 +60,6 @@ Although neural networks have proven very successuful in extracting information,
 
 <img src='https://github.com/xiey1/Lymph_node_metastasis_detection/blob/master/images/CNN.png' width=900px>
 
+As we can see from the output of `conv1_1`, `conv1_2`, and `conv1_3` as well as post activation images, the first few convolutional layers can capture basic 'content' features of images such as shape, edge, and boundaries.
+
+Deeper convolutional layers tend to capture higher-order features such as colors and textures. It's visually obvious that output from the deeper layers (eg. `conv3`) contains very 'abstract' info that can hardly be inferred from the original input image. In contrast, features captured by the first stack of convolutional layers (`conv1`: `conv1_1`, `conv1_2`, `conv1_3`) mainly contain information about object and shape arrangement that can easily be inferred from the original image.

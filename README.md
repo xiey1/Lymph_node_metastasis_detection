@@ -56,9 +56,10 @@ The trained CNN model has a Private Score of 0.8799 and Public Score of 0.9472 f
 
 Although neural networks have proven very successuful in extracting information, identifying objects and performing classification of images, how they perform these challenging tasks remains largely a mystery. Here I drawed output of each stack of convolutional layers (conv1, conv2, conv3) as well as each convolutional layer in the first stack (conv1_1, conv1_2, conv1_3) to have a peek inside the 'black box'.
 
-<img src='https://github.com/xiey1/Lymph_node_metastasis_detection/blob/master/images/CNN_conv.png' width=900px>
+<img src='https://github.com/xiey1/Lymph_node_metastasis_detection/blob/master/images/CNN_conv_total.png'>
 
 <img src='https://github.com/xiey1/Lymph_node_metastasis_detection/blob/master/images/CNN.png' width=900px>
+
 
 As we can see from the output of `conv1_1`, `conv1_2`, and `conv1_3` as well as post activation images, the first few convolutional layers can capture basic 'content' features of images such as shape, edge, and boundaries.
 

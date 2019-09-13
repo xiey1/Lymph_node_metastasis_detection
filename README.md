@@ -24,7 +24,7 @@ Binary classification of H&E pathology images of lymph node sections into 2 clas
 <img src= 'https://github.com/xiey1/Lymph_node_metastasis_detection/blob/master/images/Image1_directory_structure.png' width=300px>
 
 2. **CNN build from scratch**
-Here I first tried to build a 11-layer CNN model from scratch:
+Here I first tried to build an 11-layer CNN model from scratch:
 
 **((ConV-ReLU)x3-MaxPool)x3 --flattening-- FC1-ReLU-FC2**
 
